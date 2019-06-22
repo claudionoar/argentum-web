@@ -290,4 +290,15 @@
 		</profile>
 
 	</profiles>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>nexus-snapshots</id>
+			<url>http://192.168.88.30:9081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>nexus-releases</id>
+			<url>http://192.168.88.30:9081/repository/maven-releases/</url>
+		</repository>
+	</distributionManagement>	
+	
 </project>
